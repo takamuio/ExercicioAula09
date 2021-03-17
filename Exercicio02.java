@@ -10,14 +10,14 @@ public class Exercicio02 {
         
         int contPar = 0, contImpar = 0;
         
-        for(int i = 1; i < 21; i++){            
-            numeros.add(i);
+        for(int i = 0; i < 20; i++){            
+            numeros.add(i + 1);
             
-            if(numeros.get(i - 1) % 2 == 0){
+            if(numeros.get(i) % 2 == 0){
                 contPar++;
             }
             
-            if(numeros.get(i - 1) % 2 == 1){
+            if(numeros.get(i) % 2 == 1){
                 contImpar++;
             }
             
