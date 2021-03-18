@@ -15,9 +15,9 @@ public class Exercicio02 {
 
             if (numeros.get(i) % 2 == 0) {
                 contPar++;
-            }
-            contImpar = numeros.size() - contPar;
+            }           
         }
+         contImpar = numeros.size() - contPar;
 
         System.out.println("Os numeros digitador foram: " + numeros);
         System.out.println("Foram digitados " + contPar + " números pares.");
